@@ -138,12 +138,16 @@
     //links
     > a {
       border-left: 3px solid transparent;
+         border-top:1px solid transparent;
+        border-bottom:1px solid transparent;
     }
     //Hover and active states
     &:hover > a, &.active > a {
       color: @sidebar-dark-hover-color;
       background: @sidebar-dark-hover-bg;
       border-left-color: @link-hover-border-color;
+        border-bottom-color: #4e556b;
+        border-top-color: #252a3c;
     }
     //First Level Submenu
     > .treeview-menu {
@@ -229,6 +233,7 @@
     //links
     > a {
       border-left: 3px solid transparent;
+       
       font-weight: 600;
     }
     //Hover and active states
